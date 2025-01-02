@@ -41,9 +41,6 @@ defaults:
   run:
     shell: powershell
 
-env:
-  ALGoOrgSettings: ${{ vars.ALGoOrgSettings }}
-  ALGoRepoSettings: ${{ vars.ALGoRepoSettings }}
 
 jobs:
   CreateApp:
